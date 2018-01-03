@@ -2,15 +2,15 @@
 #-*- coding: utf-8 -*-
 
 def greet(name):
-    print "hello, " + name + "!"
+    print("hello, " + name + "!")
     greet2(name)
-    print "getting ready to say bye..."
+    print("getting ready to say bye...")
     bye()
 
 def greet2(name):
-    print "how arr you, " + name + "?"
+    print("how arr you, " + name + "?")
 
 def bye():
-    print "ok bye!"
+    print("ok bye!")
 
 greet("AUO")
